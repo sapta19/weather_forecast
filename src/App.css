@@ -1,0 +1,68 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.weather-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.weather-header label {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.weather-header input {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.current-time {
+  font-size: 14px;
+  color: #555;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.current-conditions,
+.chart,
+.daily-forecast {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-and-chart {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.chart {
+  order: -1; /* Placing chart first */
+}
+
+.daily-forecast {
+  order: 1; /* Placing forecast last */
+}
+
+.daily-forecast-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.body{
+  background-color: #444;
+}

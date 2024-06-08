@@ -1,0 +1,16 @@
+/* DailyCard.css */
+.daily-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .daily-card p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
